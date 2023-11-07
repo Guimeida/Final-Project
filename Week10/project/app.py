@@ -2,7 +2,6 @@ from flask import Flask, render_template, session, request, redirect
 import pyrebase
 
 app = Flask(__name__)
-
 config = {
     'apiKey': "AIzaSyDALm7gnIuvtIE5cWjl3ALjfLKqP3901co",
     'authDomain': "final-project-dd90a.firebaseapp.com",
