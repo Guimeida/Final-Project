@@ -1,0 +1,16 @@
+Fazer uma pagina de login (utilizar google FireBase) - Fazer em Ultimo
+
+Fazer uma pagina com 3 paginas acessáveis
+
+1 - Pagina do Perfil do Utilizador
+
+2 - Pagina para ver os Produtos (uma lista)
+
+3 - ...
+
+Backend comunica com FrontEnd usando REST
+
+No Backend Basededados usando SQL
+
+JavaScript
+
