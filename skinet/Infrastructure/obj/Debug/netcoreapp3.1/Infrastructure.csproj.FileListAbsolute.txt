@@ -11,3 +11,17 @@ D:\Visual Studio Code\Final Project\Final-Project\skinet\Infrastructure\obj\Debu
 D:\Visual Studio Code\Final Project\Final-Project\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
 D:\Visual Studio Code\Final Project\Final-Project\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
 D:\Visual Studio Code\Final Project\Final-Project\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.sourcelink.json
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\Guilherme Almeida\Source\Repos\Final-Project\skinet\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb

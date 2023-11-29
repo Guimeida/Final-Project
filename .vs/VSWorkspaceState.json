@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\skinet",
+    "\\skinet\\API",
+    "\\skinet\\API\\Controllers",
+    "\\skinet\\Core",
+    "\\skinet\\Core\\Interfaces",
+    "\\skinet\\Infrastructure",
+    "\\skinet\\Infrastructure\\Data"
+  ],
+  "SelectedNode": "\\skinet\\API\\Startup.cs",
+  "PreviewInSolutionExplorer": false
+}
