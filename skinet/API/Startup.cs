@@ -5,8 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Infrastructure.Data;
-
-
+using Core.Interfaces;
+using System.Text.Json;
 
 namespace API
 {
@@ -21,7 +21,9 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddControllers()
+                .AddNewtonsoftJson();
             services.AddDbContext<StoreContext>(x =>
                 x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
         }
