@@ -3,12 +3,12 @@
     "",
     "\\skinet",
     "\\skinet\\API",
-    "\\skinet\\API\\Controllers",
     "\\skinet\\Core",
     "\\skinet\\Core\\Interfaces",
     "\\skinet\\Infrastructure",
-    "\\skinet\\Infrastructure\\Data"
+    "\\skinet\\Infrastructure\\Data",
+    "\\skinet\\Infrastructure\\Data\\SeedData"
   ],
-  "SelectedNode": "\\skinet\\API\\Startup.cs",
+  "SelectedNode": "\\skinet\\Infrastructure\\Data\\SeedData\\brands.json",
   "PreviewInSolutionExplorer": false
 }
