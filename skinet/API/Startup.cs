@@ -21,9 +21,10 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
             services.AddScoped<IProductRepository, ProductRepository>();
-            services.AddControllers()
-                .AddNewtonsoftJson();
+            services.AddControllers();
+            var connectionString = _config.GetSection("ConnectionString").Value;
             services.AddDbContext<StoreContext>(x =>
                 x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
         }
