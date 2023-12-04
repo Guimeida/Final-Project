@@ -22,14 +22,8 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-<<<<<<< HEAD:skinet/API/Startup.cs
             services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
             services.AddScoped<IProductRepository, ProductRepository>();
-=======
-            services.AddScoped<StoreContext>();
-            services.AddScoped<IProductRepository, ProductRepository>();
-            services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
->>>>>>> 230636b7e1460b19c05f2e368a462a069bde28c5:API/Startup.cs
             services.AddControllers();
             var connectionString = _config.GetSection("ConnectionString").Value;
             services.AddDbContext<StoreContext>(x =>

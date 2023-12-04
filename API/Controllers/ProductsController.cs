@@ -31,13 +31,9 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts()
         {
-<<<<<<< HEAD:skinet/API/Controllers/ProductsController.cs
             var spec = new ProductsWithTypesAndBrandsSpecification();
 
             var products = await _productsRepo.ListAsync(spec);
-=======
-            var products = await _productsRepo.ListAllAsync();
->>>>>>> 230636b7e1460b19c05f2e368a462a069bde28c5:API/Controllers/ProductsController.cs
 
             return Ok(products);
         }
