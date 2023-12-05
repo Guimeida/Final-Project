@@ -6,8 +6,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Infrastructure.Data;
 using Core.Interfaces;
-using System.Text.Json;
-using System.Linq;
+using AutoMapper;
+using API.Helpers;
 
 namespace API
 {
@@ -24,6 +24,7 @@ namespace API
         {
             services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddAutoMapper(typeof(MappingProfiles));
             services.AddControllers();
             var connectionString = _config.GetSection("ConnectionString").Value;
             services.AddDbContext<StoreContext>(x =>
@@ -41,6 +42,7 @@ namespace API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseStaticFiles();
 
             app.UseAuthorization();
 
